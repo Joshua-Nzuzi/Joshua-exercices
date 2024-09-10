@@ -1,0 +1,353 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles du header */
+header {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px 6rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 116px;
+height: 36px;
+top: 15px;
+left: 159px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: 600;
+}
+
+.navigation a.accueil {
+    color:rgba(217, 41, 80, 1);
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+/* Styles de la section hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 196px 6rem;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.hero-left {
+    flex: 1;
+    max-width: 50%;
+}
+
+.hero-left h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-left p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn-red {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgba(217, 41, 80, 1);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.btn-red:hover {
+    background-color: darkred;
+}
+
+.hero-right {
+    flex: 1;
+    max-width: 50%;
+}
+
+.hero-right img {
+    width:564px;
+    height: 376px;
+    
+}
+/* Styles de la section options */
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 6rem;
+    background-color: rgba(250, 243, 233, 1);
+}
+
+.card {
+    flex: 1;
+    width:322px;
+    height:240px;
+    padding: 20px;
+    margin: 0 10px;
+    border: 1px solid rgba(62,61,61,1); /* Bordure légère */
+    border-radius: 9px;
+    text-align: center;
+    
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Styles de la section code-editor */
+.code-editor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 6rem;
+    background-color:rgba(40, 44, 52, 1);
+   
+}
+
+.editor-left {
+    width: 561px;
+height: 296px;
+left: 159px;
+gap: 0px;
+opacity: 0px;
+flex: 1;
+max-width: 50%;
+}
+
+.editor-left img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Coins arrondis pour l'image */
+}
+
+.editor-right {
+flex: 1;
+padding-left: 2rem; /* Espacement entre l'image et le texte */
+padding-bottom: 4rem;
+}
+
+.editor-right h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.editor-right p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+/* Styles de la section learn */
+.learn {
+    padding: 50px 6rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    
+}
+
+.learn h2 {
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+text-align: center;
+margin-bottom: 30px;
+color:rgba(62, 61, 61, 1); /* Couleur du titre dans learn */
+}
+
+.learn-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px; /* Espace entre les cartes */
+    margin-bottom: 30px;
+}
+
+.learn-card {
+    flex: 1;
+    max-width: 30%;
+    padding: 20px;
+    border: 2px solid #ddd; /* Bordure légère */
+    border-radius: 9px; 
+    background-color:#FAF3E9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.learn-card h3 {
+    font-size:18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 10px;
+    color:rgba(62, 61, 61, 1);
+    ;
+}
+.more_cources{
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    text-decoration: none;
+    color:rgba(217, 41, 80, 1);
+}
+
+/* Styles de la section contact */
+.contact {
+    padding: 50px 6rem;
+    background-color: #FAF3E9;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#FAF3E9;
+    border-radius: 8px;
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgba(62,61,61,1);
+    
+}
+
+.form-group textarea, .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(62,61,61,1); /* Bordure légère */
+    border-radius: 9px;
+    font-size: 1em;
+    box-sizing: border-box; /* Pour inclure le padding dans la largeur totale */
+}
+
+.form-row {
+    display: flex;
+    gap: 20px; /* Espace entre les deux champs de saisie */
+    color: #FAF3E9;
+}
+
+.form-group-inline {
+    flex: 1;
+    color: #FAF3E9;
+}
+
+.form-group-inline label {
+    display: block;
+    
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(217, 41, 80, 1);
+    color:#FAF3E9;
+    font-weight: 600;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+/* Styles pour le footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 6rem;
+    background-color: rgba(255, 255, 255, 1);
+    ;
+    border-top: 1px solid #ddd;
+}
+
+.logo {
+    width: 116px;
+    height: 36px;
+    margin-bottom: 15px;
+}
+
+.address {
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgba(62, 61, 61, 1);
+
+line-height: 27px;
+    
+}
+
+.address-line1 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 18px;
+
+}
+
+.address-line2 {
+    font-weight: 200;
+    margin: 0;
+    font-size: 16px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 2rem;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    color: rgba(62, 61, 61, 1);
+    transition: opacity 0.3s ease;
+}
+
+.social-icon:hover {
+    opacity: 0.7;
+}
